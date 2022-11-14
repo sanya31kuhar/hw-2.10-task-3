@@ -1,6 +1,10 @@
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        MapStringListInteger msli = new MapStringListInteger();
+        MapStringListInteger.printMap(msli.getListMap());
+        msli.getTransformMap();
+        MapStringListInteger.printMap(msli.getTransformMap());
     }
 }
